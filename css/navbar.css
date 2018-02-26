@@ -1,9 +1,23 @@
 .navbar-inverse .navbar-nav>.active>a {
-    color: red;
+    color: red!important;
     background-color: white;
     font-weight: bold;
 }
 .navbar-inverse .navbar-nav>.active>a:hover {
-    color: black;
+    color: black!important;
     background-color: white;
+}
+
+main {
+    margin-top: 50px;
+    padding: 10px 30px;
+}
+
+.navbar-inverse {
+    background-color: #616161;
+    border-color:#616161 !important;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #E57373 !important;
+
 }

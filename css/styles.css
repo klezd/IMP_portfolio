@@ -1,0 +1,26 @@
+/*contact page*/
+.infoForm input {
+    pointer-events: none;
+
+}
+.infoForm {
+    width:60%;
+    margin: auto;
+    border-radius: 10px;
+    border: 1px solid #F50057;
+    box-shadow: 2px 2px 2px #F8BBD0;
+    padding: 1em 3em !important;
+    background: #F8BBD0;
+}
+
+/*home page*/
+.mainPage {
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    border: 1px solid #F50057;
+    box-shadow: 2px 2px 2px #F8BBD0;
+    padding: 1em 3em !important;
+    background: #F8BBD0;
+    width: 75%;
+}

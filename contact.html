@@ -6,55 +6,99 @@
     <!--css-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/styles.css">
     <!--awesome font-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Portfolio - Interactive Multimedia Programming </title>
 </head>
 <body>
     <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
-    <div class="container">
+        <div class="container">
 
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">Portfolio</a>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Portfolio</a>
+            </div>
+
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li>
+                        <a href="list_of_labs.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">List of labs <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="list_of_labs.html">All labs</a></li>
+                            <li><a href="list_of_labs.html#lab1">Lab 1</a></li>
+                            <li><a href="list_of_labs.html#lab2">Lab 2</a></li>
+                            <li><a href="list_of_labs.html#lab3">Lab 3</a></li>
+                            <li><a href="list_of_labs.html#lab4">Lab 4</a></li>
+                            <li><a href="list_of_labs.html#lab5">Lab 5</a></li>
+                            <li><a href="list_of_labs.html#lab6">Lab 6</a></li>
+                        </ul>
+                    </li>
+                    <li class="active"><a href="contact.html">About me</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+
         </div>
+    </nav>
 
-        <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.html">Home</a></li>
-                <li>
-                    <a href="list_of_labs.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">List of labs <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="list_of_labs.html">All labs</a></li>
-                        <li><a href="#">Lab 1</a></li>
-                        <li><a href="#">Lab 2</a></li>
-                        <li><a href="#">Lab 3</a></li>
-                        <li><a href="#">Lab 4</a></li>
-                        <li><a href="#">Lab 5</a></li>
-                        <li><a href="#">Lab 6</a></li>
-                    </ul>
-                </li>
-                <li class="active"><a href="contact.html">About me</a></li>
-            </ul>
-        </div><!--/.nav-collapse -->
+    <main>
+        <center><h2>My Information</h2></center>
+        <div class="infoForm">
+            <div class="form-group row ">
+                <label for="name" class="col-2 col-form-label">Name</label>
+                <div class="col-10">
+                    <input class="form-control" type="text" value="Quynh Dao">
+                </div>
+            </div>
+            <div class="form-group row ">
+                <label for="gender" class="col-2 col-form-label">Gender</label>
+                <div class="col-10">
+                    <input class="form-control" type="text" value="Female">
+                </div>
+            </div>
+            <div class="form-group row ">
+                <label for="occupation" class="col-2 col-form-label">Occupation</label>
+                <div class="col-10">
+                    <input class="form-control" type="text" value="Students - Second Year in Bachelor's Degree">
+                </div>
+            </div>
+            <div class="form-group row ">
+                <label for="university" class="col-2 col-form-label">University</label>
+                <div class="col-10">
+                    <input class="form-control" type="text" value="Oulu University of Applied Sciences">
+                </div>
+            </div>
+            <div class="form-group row ">
+                <label for="major" class="col-2 col-form-label">Major</label>
+                <div class="col-10">
+                    <input class="form-control" type="text" value="Information Technology">
+                </div>
+            </div>
+            <div class="form-group row ">
+                <label for="email" class="col-2 col-form-label">Email</label>
+                <div class="col-10">
+                    <input class="form-control" type="text" value="t6daqu00@students.oamk.fi">
+                </div>
+            </div>
+        </div>
+    </main>
 
-    </div>
-</nav>
 
 
 
 
 
-
-<!--scripts-->
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--scripts-->
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="scripts/scripts.js"></script>
 </body>
 </html>
