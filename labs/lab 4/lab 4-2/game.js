@@ -18,6 +18,10 @@ function init() {
 }
 
 function start() {
+  //get the field back
+  document.getElementById('scoreField').style.display = "block";
+  ctx.clearRect(0,0, canvas.width, canvas.height);
+
   //set score to 0
   score = 0;
   // first called when user start is clicked
