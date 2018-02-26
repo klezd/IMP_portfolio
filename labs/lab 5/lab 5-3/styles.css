@@ -1,0 +1,29 @@
+#list{
+    display: none;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table, thead, tbody {
+    width: 100%;
+}
+th[name=id], th[name=age] {
+    width: 4%;
+}
+td[name=id], td[name=age], td[name=location] {
+    text-align: center;
+}
+th[name=address] {
+    width: 20%;
+}
+th[name = email] {
+    width: 8%;
+}
+tr {
+    height: 40px;
+}
+td {
+    padding-left: 0.2em;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="styles.css">
+    <script src="gameModel.js"></script>
+    <script src="game.js"></script>
+    <title>JavaScript Mini Game</title>
+  </head>
+  <body onload = "init()">
+    <h1>Simple Game Application Made With Canvas</h1>
+    <p>Click on the object when it appears in the field and score. You will have ten second to play.</p>
+    <button name="button" onclick="start(event)">Start</button>
+    <div class="timeField" id="clock">10</div>
+    <br /> <br>
+    <div id="scoreField">
+      Your Score : <span id="score"> </span>
+      <!--<p id = "gameOver"></p>-->
+    </div>
+     <br>
+    <canvas id="speedGame"
+            width="800pt" height="600pt"
+            style="background-color:lightgrey"
+            >
+    </canvas>
+  </body>
+</html>

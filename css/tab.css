@@ -1,0 +1,33 @@
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    background: #FF8A80;
+}
+
+.nav-tabs>li>a,
+.nav-tabs>li>a:focus,
+.nav-tabs>li>a:hover {
+    color: #FF8A80;
+}
+
+.tab-content div {
+    padding: 5px 20px;
+}
+
+.tab-content h3 {
+    text-align: center;
+    margin 10px 0;
+}
+
+.sub-tab .nav-tabs>li.active>a,
+.sub-tab .nav-tabs>li.active>a:focus,
+.sub-tab .nav-tabs>li.active>a:hover {
+    background: #FFCDD2;
+    color: #DD2C00;
+}
+
+.sub-tab .nav-tabs>li>a,
+.sub-tab .nav-tabs>li>a:focus,
+.sub-tab .nav-tabs>li>a:hover {
+    color: #E64A19;
+}

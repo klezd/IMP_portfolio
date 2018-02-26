@@ -1,0 +1,9 @@
+.navbar-inverse .navbar-nav>.active>a {
+    color: red;
+    background-color: white;
+    font-weight: bold;
+}
+.navbar-inverse .navbar-nav>.active>a:hover {
+    color: black;
+    background-color: white;
+}

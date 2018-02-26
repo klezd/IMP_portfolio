@@ -1,0 +1,9 @@
+iframe.showContent {
+    display: block;
+    outline: 1px #F5F5F5 solid;
+    border: 1px #F5F5F5 solid;
+    text-align: center;
+    width: 80%;
+    min-height: 200px;
+    margin: auto;
+}

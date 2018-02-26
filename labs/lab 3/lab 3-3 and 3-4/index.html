@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio and Video elements</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="contain">
+    <div class="audio-field">
+        <audio id="audio">
+            <source src="http://stream.basso.fi:8000/stream" type="audio/mpeg">
+            <progress id="seekbar"></progress>
+        </audio>
+        <h3>Audio</h3>
+        <div class="control">
+            <a href="#" class="button" id="audioPlayPause">Play/Pause</a>
+            <img src="img/volume.png" width="25px" height="25px" id="audioVol">
+            <input id="vol-control-audio" type="range" min="0" max="100" step="1" value="50"></input>
+        </div>
+    </div>
+    <div class="video-field">
+        <video id="video" controls>
+            <source src="video/sample_video.mp4" type="video/mp4">
+        </video>
+        <h3>Video</h3>
+        <div class="control">
+            <a href="#" class="button" id="videoPlayPause">Play/Pause</a>
+            <img src="img/volume.png" width="25px" height="25px" id="videoVol">
+            <input id="vol-control-video" type="range" min="0" max="100" step="1" value="50" ></input>
+        </div>
+    </div>
+</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

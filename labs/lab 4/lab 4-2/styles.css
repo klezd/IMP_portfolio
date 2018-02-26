@@ -1,0 +1,17 @@
+button {
+    display: inline-block;
+}
+
+.timeField {
+    display: inline-block;
+
+    left: 70%;
+    top: 3%;
+    font-size: 2em;
+    border-radius: 50%;
+    background-color: #FF4081;
+    padding: 1em;
+    color: white;
+    position: absolute;
+}
+

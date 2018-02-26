@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  overflow-y: hidden;
+}
+
+body {
+  background-color: #BDBDBD;
+}
+
+header {
+  background-color: #424242;
+  color: white;
+  margin: 2% 0;
+  padding: 2%;
+  text-align: center;
+}
+
+.content {
+  padding: 2% 3%;
+  margin: auto;
+  text-align: justify;
+  font-size: 110%;
+}

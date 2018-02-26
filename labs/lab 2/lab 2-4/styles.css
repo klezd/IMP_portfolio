@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #BDBDBD;
+}
+
+header {
+  background-color: #424242;
+  color: white;
+  margin: 1% 0;
+  padding: 1%;
+  text-align: center;
+}
+.content {
+  padding: 1.66666667% 2%;
+  margin: auto;
+  text-align: justify;
+  font-size: 1.1em;
+}
+.menu a {
+  display: list-item;
+  text-decoration: none;
+  color: black;
+  font-size: 1.7em;
+  margin: 0.4em;
+  margin-right: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+  .menu {
+    width: 25%;
+    float: left;
+    height: 100%;
+    display: block;
+  }
+  .menu a {
+    text-align: left;
+  }
+  .article {
+    width: 75%;
+    float: right;
+    display: block;
+  }
+}
+
+img {
+  object-fit: contain; /*increases or decreases the size of the
+                        image to fill the box whilst preserving
+                        its aspect-ratio.*/
+  max-width: 75%;
+}

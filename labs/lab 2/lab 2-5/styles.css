@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  background: #212121;
+}
+/* set .container to have the 50% width of page if page-size larger than 600px*/
+@media screen and (min-width: 600px) {
+  .container {
+    width: 50%;
+    margin: auto;
+    background: #212121;
+    padding: 3px;
+  }
+}
+
+/*input field div*/
+.input {
+  width: 100%;
+  background: #FF8A65;
+  padding: 10px;
+  text-align: center;
+  margin-top: 3px;
+  margin: auto;
+}
+
+.input label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#inputField {
+  width: 100%;
+  padding: 5px 8px;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  margin: 5px 0;
+}
+
+.button {
+  width: 100%;
+  background: #424242;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  display: inline-block;
+}
+
+/*show list of result field*/
+.nameListField {
+  width: 100%;
+  min-height: 10px;
+  margin-top: 5px;
+  margin: auto;
+}
+
+#nameList {
+  margin: 0;
+  padding: 0;
+}
+
+.list-item {
+  list-style-type: none;
+  line-height: 30px;
+  background: #EEEEEE;
+  /*cursor: pointer;*/
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  height: auto;
+
+  /* make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.list-item:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+.list-item:hover {
+  background: #ddd;
+}
+
+.remove {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 12px 16px 12px 16px;
+  background-color: #424242;
+  color: white;
+  z-index: 10;
+}
+
+.list-item:nth-child(odd) .remove {
+  background-color: #616161;
+  color: white;
+}
+
+.remove:hover {
+  background: #DD2C00;
+}

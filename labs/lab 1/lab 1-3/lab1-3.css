@@ -1,0 +1,8 @@
+.examplecss {
+  border: solid 1px blue;
+  background: black;
+  width: 20%;
+  margin: auto;
+  color: white;
+  text-align: center;
+}

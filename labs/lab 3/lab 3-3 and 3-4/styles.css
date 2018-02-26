@@ -1,0 +1,65 @@
+.audio-field {
+    text-align: center;
+}
+
+.video-field {
+    text-align: center;
+}
+.contain {
+    width: 90%;
+    margin: auto;
+}
+@media screen and (min-width: 660px) {
+    .audio-field {
+        float:left;
+        width: 50%;
+        text-align: center;
+    }
+
+    .video-field {
+        float: right;
+        width: 50%;
+        text-align: center;
+
+    }
+    .contain {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+/*control bar*/
+.control {
+    vertical-align: middle;
+    background: #FFE0B2;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    max-width: 100px;
+    text-align: center;
+    padding: 8px;
+    margin-right: 5%;
+
+    border: 1px solid #0288D1;
+    border-radius: 3px;
+    background: #0288D1;
+
+}
+
+input[type=range] {
+    vertical-align: middle;
+}
+
+img {
+    vertical-align: middle;
+}
+
+/*video and audio element*/
+video, audio{
+    width: 500px;
+    height: 350px;
+}

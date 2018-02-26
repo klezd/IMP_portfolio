@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  background-color: #FAFAFA;
+  font-family: "AnnieUseYourTelescope", monospace !important; 
+}
+/* chat box */
+.chat-box {
+  width: 80%;
+  margin: auto;
+  font-size: 12px;
+}
+
+ @media screen and (min-width: 800px) {
+   .chat-box {
+     width: 50%;
+     margin: auto;
+     font-size: 16px;
+   }
+
+ }
+
+ #myChatBox {
+   border: 0.04em solid black;
+   border-radius: 0.3em;
+   padding: 5px 10px;
+ }
+
+/*input field*/
+.input-field {
+  margin-top: 1em;
+  height: 2em;
+}
+#inputChat {
+  width: 70%;
+  float: left;
+  display: inline-block;
+  height: 2em;
+  border: none;
+  outline: 0;
+  border-bottom: 1px black solid;
+  padding: 3px;
+  padding-left: 10px
+}
+#inputChat:focus {
+  outline: 1px red solid;
+}
+#sendButton {
+  display: inline-block;
+  width: 25%;
+  float: right;
+  border: 0.05em #304FFE solid;
+  border-radius: 3px;
+  height: 1.8em;
+  text-align: center;
+  background: #304FFE;
+  color: white;
+  font-weight: bold;
+  padding-top: 2px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  vertical-align:middle;
+}
+/* connection status*/
+.status {
+  font-size: 20px;
+  text-align: center;
+
+}
