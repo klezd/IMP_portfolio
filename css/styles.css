@@ -7,10 +7,10 @@
     width:60%;
     margin: auto;
     border-radius: 10px;
-    border: 1px solid #F50057;
-    box-shadow: 2px 2px 2px #F8BBD0;
+    border: 1px solid #113c4a;
+    box-shadow: 2px 2px 2px #dddddd;
     padding: 1em 3em !important;
-    background: #F8BBD0;
+    background: #dddddd;
 }
 
 /*home page*/
