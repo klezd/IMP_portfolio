@@ -5,7 +5,12 @@ function changeTab(){
     }
 }
 
+function minus(a,b) {
+    return a-b;
+}
+
 $(document).ready(function () {
     window.addEventListener("hashchange", changeTab);
+    minus(5,2);
     changeTab();
 });
