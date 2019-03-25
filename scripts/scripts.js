@@ -5,7 +5,13 @@ function changeTab(){
     }
 }
 
+function mathPlus(a,b) {
+    var c = a + b;
+    return c;
+}
+
 $(document).ready(function () {
     window.addEventListener("hashchange", changeTab);
+    mathPlus(1,2);
     changeTab();
 });
