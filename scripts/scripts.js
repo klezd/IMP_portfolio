@@ -5,6 +5,12 @@ function changeTab(){
     }
 }
 
+function clickhere(sum) {
+    var clicked = false;
+    var nsum = sum + 1;
+    return nsum;
+}
+
 $(document).ready(function () {
     window.addEventListener("hashchange", changeTab);
     changeTab();
